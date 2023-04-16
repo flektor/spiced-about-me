@@ -50,13 +50,14 @@ section {
 .general {
   display: flex;
   align-self: normal;
+  flex-wrap: wrap;
 }
 .general .tags li {
   color: white;
   background-color: rgb(180, 180, 180);
   border-radius: 1em;
   padding: 10px;
-  margin: 5px;
+  margin: 0 5px 5px;
 }
 .general h2 {
   text-decoration: underline;
@@ -68,7 +69,16 @@ section {
 .general li::marker {
   content: none;
 }
+.general ul {
+  padding: 0;
+}
+.general .image_container {
+  margin-right: 15px;
+}
 
+.general .image_description > span {
+  color: rgb(167, 167, 167);
+}
 footer {
   color: white;
   background-color: rgb(81, 81, 223);
@@ -80,7 +90,9 @@ footer {
 .contact .info {
   display: flex;
   border: 1px solid;
+  flex-wrap: wrap;
   margin-bottom: 30px;
+  justify-content: center;
 }
 .contact .info > div {
   padding: 30px;
@@ -88,6 +100,7 @@ footer {
 .contact ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .contact li {
   text-align: center;
