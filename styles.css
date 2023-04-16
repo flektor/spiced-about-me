@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  color: white;
+  background-color: rgb(81, 81, 223);
+  box-shadow: 0px 0px 7px gray;
+  margin-bottom: 10px;
+}
+
+nav > div {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  padding: 15px;
+}
+
+nav span {
+  font-size: larger;
+  font-weight: 700;
+}
+nav .links {
+  padding-left: 10px;
+  margin-left: auto;
+}
+nav .links > a {
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+nav .links > a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 10px;
+}
+
+.general {
+  display: flex;
+  align-self: normal;
+  flex-wrap: wrap;
+}
+.general .tags li {
+  color: white;
+  background-color: rgb(180, 180, 180);
+  border-radius: 1em;
+  padding: 10px;
+  margin: 0 5px 5px;
+}
+.general h2 {
+  text-decoration: underline;
+}
+.general .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.general li::marker {
+  content: none;
+}
+.general ul {
+  padding: 0;
+}
+.general .image_container {
+  margin-right: 15px;
+}
+
+.general .image_description > span {
+  color: rgb(167, 167, 167);
+}
+footer {
+  color: white;
+  background-color: rgb(81, 81, 223);
+  margin-top: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.contact .info {
+  display: flex;
+  border: 1px solid;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.contact .info > div {
+  padding: 30px;
+}
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact li {
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+.contact li::marker {
+  content: none;
+}
+
+.contact ul img {
+  display: block;
+}
+.contact span {
+  color: blueviolet;
+}
