@@ -1,62 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
-</head>
-
-<body>
-
+  <body>
+    <nav>
+      <div>
+        <span class="name">Georgios Drosinos</span>
+        <div class="links">
+          <a href="contact.html">Contact</a>
+          <a href="biography.html">Biography</a>
+        </div>
+      </div>
+    </nav>
 
     <main>
-        <nav>
-            <h1>Georgios Drosinos</h1>
+      <section>
+        <div class="general">
+          <div class="image_container">
+            <img
+              src="https://ca.slack-edge.com/T0511PK244X-U051Y2HDWSW-577478dc6d53-512"
+              width="300px"
+            />
+          </div>
 
-            <img src="/images/me.png" width="300px" />
+          <div class="stack">
             <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="biography.html">Biography</a></li>
+              <li>
+                <h2>FrontEnd</h2>
+                <ul class="tags">
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+              </li>
+              <li>
+                <h2>BackEnd</h2>
+                <ul class="tags">
+                  <li>TypeScript</li>
+                  <li>NodeJS</li>
+                  <li>Express</li>
+                </ul>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </section>
 
+      <section class="contact">
+        <div class="info">
+          <div class="number">number: <span> +49162478xxxx </span></div>
+          <div class="email">email: <span> gdrosin@gmail.com</span></div>
+        </div>
+
+        <ul>
+          <li>
+            <a href="https://github.com/flektor">
+              <img
+                src="https://skillicons.dev/icons?i=github"
+                title="Github"
+                width="64px"
+              />
+              Github
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/">
+              <img
+                src="https://skillicons.dev/icons?i=codepen"
+                title="Codepen"
+                width="64px"
+              />
+              Codepen
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/georgios-drosinos/">
+              <img
+                src="https://skillicons.dev/icons?i=linkedin"
+                title="LinkedIn"
+                width="64px"
+              />
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>About me</h2>
+        <p>
+          <br class="about-me" />
+          I am Georgios, a Berlin based full stack web developer. <br />
+          🎓 I have a bachelor's degree in informatics engineering. <br />
+          🌱 I'm currently studing full stack web development at spiced academy.
+        </p>
+
+        <h2>CV</h2>
+        <p class="cv">
+          In non libero lectus. Aenean faucibus fringilla dui elementum semper.
+          Fusce eu tortor lorem. Cras purus lorem, suscipit nec turpis viverra,
+          auctor rhoncus orci.
+        </p>
+      </section>
     </main>
 
-    <section>
-        <ul>
-            <li>
-                <a href="https://github.com/flektor">
-                    <img src="https://skillicons.dev/icons?i=github" title="Github" />
-                </a>
-            </li>
-            <li>
-                <a href="https://codepen.io/">
-                    <img src="https://skillicons.dev/icons?i=codepen" title="Codepen" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/georgios-drosinos/" title="LinkedIn">
-                    <img src="https://skillicons.dev/icons?i=linkedin" />
-                </a>
-            </li>
-        </ul>
-
-    </section>
-
-    <div class="contact">
-        number:
-        <div class="title">+491624784813</div>
-        email:
-        <div class="email">gdrosin@gmail.com</div>
-    </div>
-
-
-
-
-
-
-</body>
-
+    <footer>gdrosin@gmail.com 2023</footer>
+  </body>
 </html>
